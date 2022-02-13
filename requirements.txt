@@ -1,0 +1,6 @@
+Pillow
+PyQt5
+PyQt5-Qt5
+lxml
+python-docx
+setuptools
