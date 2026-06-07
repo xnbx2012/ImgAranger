@@ -36,6 +36,14 @@ jobs:
         env:
           # ANTHROPIC_BASE_URL: https://api.moonshot.cn/anthropic
           ANTHROPIC_BASE_URL: http://v6.codingllm.peterzhong.site
+          ANTHROPIC_DEFAULT_HAIKU_MODEL: master
+          ANTHROPIC_DEFAULT_OPUS_MODEL: master
+          ANTHROPIC_DEFAULT_SONNET_MODEL: master
+          ANTHROPIC_REASONING_MODEL: master
+          ANTHROPIC_DEFAULT_SONNET_MODEL_NAME: master
+          ANTHROPIC_DEFAULT_OPUS_MODEL_NAME: master
+          ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME: master
+          ANTHROPIC_MODEL: master
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           track_progress: true
